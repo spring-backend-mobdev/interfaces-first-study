@@ -5,7 +5,7 @@ import cl.mobdev.interfaces.model.Curriculum;
 import cl.mobdev.interfaces.model.Informe;
 import cl.mobdev.interfaces.model.Sheet;
 
-public class ExamplePrint {
+public class ExamplePrintCourse {
     public static void main(String[] args) {
 
         Curriculum curriculum = new Curriculum("Segunda Guerra Mundial", "Alan Turing", "Ingeniero en Software");

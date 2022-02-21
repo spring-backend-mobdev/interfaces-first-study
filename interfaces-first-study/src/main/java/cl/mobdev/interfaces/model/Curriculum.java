@@ -31,8 +31,8 @@ public class Curriculum extends Sheet{
     public String print() {
         StringBuilder stringBuilder = new StringBuilder("nombre: ");
         stringBuilder.append(person).append("\n")
-                .append("Resume: ").append(this.content)
-                .append("\n").append("Profesion: ")
+                .append("Summary: ").append(this.content)
+                .append("\n").append("Profession: ")
                 .append(this.career).append("\n")
                 .append("Experience: \n");
 
